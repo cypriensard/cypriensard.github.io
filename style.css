@@ -48,7 +48,14 @@ body {
   font-family: 'wintersoulregular';
   font-size: 8vw;  
 }
-
+@media screen and (max-width: 1000px){
+  #title{
+  font-size: 80px;
+  }
+  button{
+  font-size: 10px;
+  }
+}
   .mon-bouton{
     position: absolute;
     top: 60vh;
