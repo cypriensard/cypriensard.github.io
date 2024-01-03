@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Vérifiez s'il y a au moins un élément avec la classe "image_container"
     if (imageContainers.length > 0) {
         // Accédez au premier élément de la collection et définissez le style
-        imageContainers[0].style.top = top_position + 500 + "px";
+        imageContainers[0].style.top = top_position + 300 + "px";
     }
 });
 
