@@ -238,10 +238,6 @@ blockquote p {
    z-index: 2;
 }
 
-#video{
-  width: 50vw;
-  height: 30vw;
-}
 @media screen and (max-width: 400px){
   #citation{
     width: 90vw;
