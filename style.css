@@ -239,8 +239,8 @@ blockquote p {
 }
 
 #video{
-  max-width: 45vw;
-  max-height: 22vw;
+  width: 50vw;
+  height: 30vw;
 }
 @media screen and (max-width: 400px){
   #citation{
