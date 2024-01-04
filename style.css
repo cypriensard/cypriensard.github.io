@@ -48,7 +48,7 @@ body {
   font-family: 'wintersoulregular';
   font-size: 8vw;  
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
   #title{
   font-size: 80px;
   }
