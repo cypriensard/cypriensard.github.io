@@ -232,8 +232,8 @@ blockquote p {
    border-radius: 1vw;
    position:absolute;
    left:10vw;
-   max-width: 45vw;
-   max-height:22vw ;
+   max-width: 500px;
+   max-height: 300px;
    overflow:hidden;
    z-index: 2;
 }
