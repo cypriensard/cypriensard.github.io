@@ -231,7 +231,7 @@ blockquote p {
 #video-container {
    border-radius: 1vw;
    position: relative;
-   padding-bottom: 100%; /* 16:9 aspect ratio */
+   padding-bottom: 200%; /* 16:9 aspect ratio */
    height: 0;
    overflow: hidden;
     }
