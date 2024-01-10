@@ -50,10 +50,10 @@ body {
 }
 @media screen and (max-width: 500px){
   #title{
-  font-size: 5vw;
+  font-size: 10vw;
   }
   .mon-button{
-  top: 50vh;
+  top: 40vh;
   }
 }
   .mon-bouton{
