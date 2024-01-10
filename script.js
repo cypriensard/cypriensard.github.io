@@ -1,4 +1,4 @@
-console.log('toto');
+
 function change(valeur)
 {
   var changer = document.getElementById(valeur);
