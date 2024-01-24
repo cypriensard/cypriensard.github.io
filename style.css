@@ -26,8 +26,6 @@ body {
   margin: 0rem;
   overflow-x: hidden;
 }
-
-
 #wallpaper{
   height: 100vh;
   width: 100vw;
@@ -65,8 +63,6 @@ body {
   z-index: -1;
 }
 
-
-
 blockquote:before {
   position: absolute;
   top: 0vh;
@@ -92,8 +88,6 @@ blockquote {
 blockquote p {
   margin: 0;
 }
-
-
 
 #auteur {
   position: absolute;
@@ -210,7 +204,6 @@ transform: scale(1.1);
   width: 100vw;
 }
 
-
 #video iframe {
   position:absolute;
   left:15vw;
@@ -248,6 +241,9 @@ transform: scale(1.1);
   }
   #photos{
     width: 35vw;
+  }
+  #insta-icon{
+    width: 4vw;
   }
 
 }
