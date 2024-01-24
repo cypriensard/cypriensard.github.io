@@ -38,50 +38,65 @@ body {
 }
 
 #title {
-  color: white;
-  text-align: center;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 30vh;
+  color: black;
   text-align: center;
-  font-family: 'wintersoulregular';
-  font-size: 8vw;  
+  margin: auto;
+  top: 5vh;
+  width: 80vw;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  justify-content: center;
+  font-family: 'tahuregular', sans-serif;
+  font-size: 5vw;
+  word-spacing: 1vw; 
+  z-index: -1;
 }
+
+
+blockquote:before {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  content: "“";
+  font-family: 'tahuregular';
+  font-size: 10vw;
+  color: #999;
+}
+blockquote:after {
+  position: absolute;
+  top: 0vh;
+  right: 0vw;
+  content: "”";
+  font-family: 'tahuregular';
+  font-size: 10vw;
+  color: #999;
+}
+blockquote {
+  position: relative;
+  padding: 1vw 1vw;
+}
+blockquote p {
+  margin: 0;
+}
+
 @media screen and (max-width: 500px){
   #title{
   font-size: 10vw;
-  }
-  .mon-button{
-  top: 40vh;
+  top: 10vh;
   }
 }
-  .mon-bouton{
-    position: absolute;
-    top: 60vh;
-    left: 50vw;
-    transform: translateX(-50%);
-    z-index: 1;
+@media screen and (max-width: 1400px){
+  #title{
+  font-size: 6vw;
+  top: 10vh;
+  }
 }
-  button {
-    display: inline-block;
-    background-color: white;
-    border-radius: 2vw;
-    border: none;
-    color: black;
-    font-size: 1.2vw;
-    padding: 1vw;
-    width: calc(10vw + 45px);
-    height: calc(2.6vw + 10px);
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    text-align: center;
-}
-  button:hover {
-  ms-transform: scale(1.05);
-  webkit-transform: scale(1.05); 
-  transform: scale(1.05);
+@media screen and (max-width: 800px){
+  #title{
+  font-size: 8vw;
+  top: 10vh;
+  }
 }
 
 #first-black-band {
@@ -97,12 +112,12 @@ body {
    position: absolute;
    display: flex;
    flex-direction: row; 
-   top: 46vh;
+   top: 44vh;
    width: 100vw;
    height: 100vh;
    justify-content: center;
    align-items: center;
-   gap: 10px;
+   gap: 20px;
 }
 #insta-icon:hover {
 ms-transform: scale(1.1); 
@@ -111,75 +126,7 @@ transform: scale(1.1);
 }
 
 #insta-icon {
-  width: 4vw;
-}
-#mail{
-  width: 20vw;
-  height: 4vw;
-  font-size: 1.2vw;
-  border-radius: 2vw;
-  background: whitesmoke;
-  object-fit: cover;
-  position: absolute;
-  top: 90vh;
-  left: 70vw;
-  transform: translate(-50%);
-  text-align: center;
-  visibility: hidden;
-  line-height: 4vw;
-  font-family: 'Roboto', sans-serif
-}
-
-#citation {
-  position: absolute;
-  color: black;
-  text-align: center;
-  margin: auto;
-  top: 116vh;
-  width: 60vw;
-  margin-left: 50vw;
-  transform: translate(-50%);
-  justify-content: center;
-  font-family: 'tahuregular', sans-serif;
-  font-size: calc(2.5vh + 1.5vw);
-  word-spacing: 1vw;
-}
-
-blockquote:before {
-  position: absolute;
-  top: 0vh;
-  left: 0vw;
-  content: "“";
-  font-family: 'tahuregular';
-  font-size: 6vw;
-  color: #999;
-}
-blockquote:after {
-  position: absolute;
-  top: 0vh;
-  right: 0vw;
-  content: "”";
-  font-family: 'tahuregular';
-  font-size: 6vw;
-  color: #999;
-}
-blockquote {
-  position: relative;
-  padding: 1vw 1vw;
-}
-blockquote p {
-  margin: 0;
-}
-
-@media screen and (max-width: 793px){
-  blockquote:before{
-  font-size: 12vw;
-  left: -3vw;
-  }
-  blockquote:after{
-  font-size: 12vw;
-  right: -3vw;
-  }
+  width: 2vw;
 }
 
 .image_container{
@@ -192,6 +139,7 @@ blockquote p {
   padding: 3vw;
   justify-content: center;
   align-items: center;
+  top: 106vh;
 
   @media screen and (max-width: 993px){
   #image{
@@ -212,34 +160,47 @@ blockquote p {
   height: auto;
 }
 
-#Iceland {
-  position: relative;
-  height: 80vh;
-  object-fit: cover;
-  width: 100vw;
-}
-
 #white-trans {
   width: 100vw;
-  height: 230px;
+  height: 28vw;
   background: linear-gradient(rgba(255,255,255,1),rgba(0,0,0,0));
   object-fit: cover;
   position: absolute;
   z-index: 1;
 }
 
-#video-container {
-   border-radius: 1vw;
-   position:absolute;
-   left:10vw;
-   max-width: 500px;
-   max-height: 300px;
-   overflow:hidden;
-   z-index: 2;
+.video-part-container{
+   position: absolute;
+   display: flex;
+   flex-direction: column; 
+   max-width: 100vw;
+   justify-content: center;
+   align-items: center;
+   gap: 0px;
+}
+#Iceland {
+  height: auto;
+  width: 100vw;
 }
 
-@media screen and (max-width: 400px){
-  #citation{
-    width: 90vw;
-  }
+
+#video iframe {
+  position:absolute;
+  left:15vw;
+  z-index: 2;
+  width: 25vw;
+  height: 14.1vw;
+  top: 20vw;
 }
+  @media screen and (max-width: 1000px){
+  #video iframe{
+    width: 30vw;
+    height:  17vw;
+   }
+  }
+    @media screen and (max-width: 750px){
+  #video iframe{
+    width: 50vw;
+    height:  28vw;
+   }
+  }
