@@ -36,10 +36,22 @@ body {
   top: 0vh;
   z-index: -1;
 }
+#photos{
+  height: auto;
+  width: 10vw;
+  object-fit: cover;
+  position: fixed;
+  top: 50vh;
+  z-index: 0;
+  transform: translate(-50%);
+  left: 50%;
+  justify-content: center;
+  border-radius: 80%;
+}
 
 #title {
   position: absolute;
-  color: black;
+  color: white;
   text-align: center;
   margin: auto;
   top: 5vh;
@@ -54,6 +66,7 @@ body {
 }
 
 
+
 blockquote:before {
   position: absolute;
   top: 0vh;
@@ -61,7 +74,7 @@ blockquote:before {
   content: "“";
   font-family: 'tahuregular';
   font-size: 10vw;
-  color: #999;
+  color: #DDDDDD;
 }
 blockquote:after {
   position: absolute;
@@ -70,7 +83,7 @@ blockquote:after {
   content: "”";
   font-family: 'tahuregular';
   font-size: 10vw;
-  color: #999;
+  color: #DDDDDD;
 }
 blockquote {
   position: relative;
@@ -97,6 +110,36 @@ blockquote p {
   font-size: 8vw;
   top: 10vh;
   }
+}
+#auteur {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: auto;
+  top: 30vh;
+  width: 80vw;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  justify-content: center;
+  font-family: 'tahuregular', sans-serif;
+  font-size: 1vw;
+  word-spacing: 0.11vw; 
+  z-index: -1;
+}
+#name {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: auto;
+  top: 70vh;
+  width: 80vw;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  justify-content: center;
+  font-family: 'wintersoulregular', sans-serif;
+  font-size: 5vw;
+  word-spacing: 0.8vw; 
+  z-index: -1;
 }
 
 #first-black-band {
