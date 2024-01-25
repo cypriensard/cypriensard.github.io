@@ -267,16 +267,6 @@ transform: scale(1.1);
   top: 32vh;
   }
 }
-@media screen and (max-height: 1000px){
-  #photos{
-  width: 15vw;
-  top: 50vw;
-  }
-  #name{
-  font-size: 5vw;
-  top: 65vw;
-  }
-}
 @media screen and (max-height: 500px){
   #title{
   font-size: 5vw;
