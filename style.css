@@ -277,7 +277,7 @@ transform: scale(1.1);
   top: 65vw;
   }
 }
-@media screen and (max-height: 800px){
+@media screen and (max-height: 950px){
   #title{
   font-size: 5vw;
   top: -2vw;
