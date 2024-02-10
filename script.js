@@ -7,17 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var wallpaperElement = document.getElementById("wallpaper");
 
     function ajusterPosition() {
-        var bottomAltitude = imageContainer.offsetTop + imageContainer.offsetHeight;
-        videoPartContainerElement.style.top = bottomAltitude + "px";
-        whitetransElement.style.top = bottomAltitude + "px";
-
         var topAltitude = icelandElement.offsetTop;
         var hauteurband = icelandElement.offsetHeight;
         var hauteurwallpaper = wallpaperElement.offsetHeight;
         bandElement.style.height = topAltitude + hauteurband - hauteurwallpaper + "px";
+        var bottomAltitude = imageContainer.offsetTop + imageContainer.offsetHeight;
+        videoPartContainerElement.style.top = bottomAltitude + "px";
+        whitetransElement.style.top = bottomAltitude + "px";
     }
-
     ajusterPosition();
-
     window.addEventListener('resize', ajusterPosition);
 });
