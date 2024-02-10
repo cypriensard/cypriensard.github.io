@@ -38,7 +38,7 @@ body {
   height: auto;
   width: 10vw;
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   top: 50vh;
   z-index: 0;
   transform: translate(-50%);
