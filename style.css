@@ -88,22 +88,6 @@ blockquote {
 blockquote p {
   margin: 0;
 }
-
-#auteur {
-  position: absolute;
-  color: white;
-  text-align: center;
-  margin: auto;
-  top: 30vh;
-  width: 80vw;
-  margin-left: 50vw;
-  transform: translate(-50%);
-  justify-content: center;
-  font-family: 'tahuregular', sans-serif;
-  font-size: 1vw;
-  word-spacing: 0.11vw; 
-  z-index: -1;
-}
 #name {
   position: relative;
   color: white;
@@ -252,29 +236,17 @@ transform: scale(1.1);
   font-size: 6vw;
   top: 5vh;
   }
-  #auteur{
-  font-size: 2vw;
-  top: 32vh;
-  }
 }
 @media screen and (max-width: 800px){
   #title{
   font-size: 8vw;
   top: 10vh;
   }
-  #auteur{
-  font-size: 5vw;
-  top: 32vh;
-  }
 }
 @media screen and (max-height: 500px){
   #title{
   font-size: 5vw;
   top: -2vw;
-  }
-  #auteur{
-  font-size: 2vw;
-  top: 20vw;
   }
   #photos{
   width: 10vw;
