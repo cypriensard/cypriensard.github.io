@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener('load', function() {
     var imageContainer = document.querySelector(".image_container");
     var videoPartContainerElement = document.querySelector(".video-part-container");
     var whitetransElement = document.getElementById("white-trans");
