@@ -1,0 +1,226 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'tahuregular';
+    src: url('font/tahu-webfont.woff2') format('woff2'),
+         url('font/tahu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'wintersoulregular';
+    src: url('font/wintersoul-webfont.woff2') format('woff2'),
+         url('font/wintersoul-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  margin: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+#wallpaper{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+#photos{
+  height: auto;
+  width: 10vw;
+  object-fit: cover;
+  position: absolute;
+  top: 50vh;
+  z-index: 0;
+  transform: translate(-50%);
+  left: 50%;
+  justify-content: center;
+  border-radius: 80%;
+}
+
+#title {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 7%;
+  width: 80vw;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  justify-content: center;
+  font-family: 'tahuregular', sans-serif;
+  font-size: 5vw;
+  word-spacing: 1vw; 
+  z-index: -1;
+}
+
+#name {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: auto;
+  top: 70vh;
+  width: 80vw;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  justify-content: center;
+  font-family: 'wintersoulregular', sans-serif;
+  font-size: 5vw;
+  word-spacing: 0.8vw; 
+  z-index: -1;
+}
+
+#first-black-band {
+  width: 100vw;
+  height: 324vh;
+  background: white;
+  object-fit: cover;
+  position: absolute;
+  top: 100vh;
+}
+
+.color-bloc-container {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    z-index: 5;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:0;
+}
+
+.monBouton{
+  flex: 1; /* Fait en sorte que chaque bouton prenne 50% de largeur */
+  height: 65px; /* Ajustez la hauteur selon vos besoins */
+  background-color: white;
+  color: black;
+  border: none;
+  display: flex; /* Utilisez flex pour centrer le texte */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  padding-top: 5px;
+  font-family: 'tahuregular', sans-serif;
+  font-size: 2.3vw;
+}
+.monBouton:hover {
+  background-color: #F3F3F3;
+}
+
+#icon-container{
+   position: absolute;
+   display: flex;
+   flex-direction: row; 
+   top: 44vh;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+#insta-icon:hover {
+ms-transform: scale(1.1); 
+webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+#insta-icon {
+  width: 2vw;
+}
+
+.image_container{
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  margin-top: 90vh;
+}
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr)) ;
+  grid-gap:30px;
+  top: 106vh;
+  z-index: 2;
+}
+.gallery img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+
+  @media screen and (max-width: 1000px){
+  #video iframe{
+    width: 30vw;
+    height:  17vw;
+   }
+  }
+    @media screen and (max-width: 750px){
+  #video iframe{
+    width: 50vw;
+    height:  28vw;
+   }
+  }
+
+  @media screen and (max-width: 1100px){
+  #photos{
+    width: 23vw;
+  }
+  #name{
+  font-size: 8vw;
+  top: 70vh;
+  }
+}
+@media screen and (max-width: 500px){
+  #title{
+  font-size: 10vw;
+  top: 10vh;
+  }
+  #photos{
+    width: 35vw;
+  }
+  #insta-icon{
+    width: 4vw;
+  }
+
+}
+@media screen and (max-width: 1400px){
+  #title{
+  font-size: 6vw;
+  top: 5vh;
+  }
+
+}
+@media screen and (max-width: 800px){
+  #title{
+  font-size: 8vw;
+  top: 10vh;
+  }
+
+}
+@media screen and (max-height: 500px){
+  #title{
+  font-size: 5vw;
+  top: -2vw;
+  }
+  #photos{
+  width: 10vw;
+  top: 50vh;
+  }
+  #name{
+  font-size: 5vw;
+  top: 70vh;
+  }
+}
