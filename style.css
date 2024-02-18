@@ -186,4 +186,8 @@ transform: scale(1.1);
   #photos{
     width: 25vw;
   }
+  #insta-icon {
+  width: 4vw;
+  top: 87vh;
+  }
 }
