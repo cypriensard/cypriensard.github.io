@@ -45,27 +45,25 @@ body {
 .monBouton:hover {
   background-color: #F3F3F3;
 }
-    .video-part-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 50px;
+.video-part-container {
+  position: relative; /* Utiliser relative plutôt qu'absolute pour définir les dimensions relatives à ce conteneur */
+  display: grid;
+  grid-column: 1fr;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
 
-    }
+.video {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 
-    .video {
-      position: relative;
-      width: 60%; /* 100% de la largeur du conteneur parent */
-      padding-bottom: 33.77%; /* Aspect ratio 16:9 pour les vidéos (9/16 * 100) *//
-    }
-
-    .video iframe {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      padding-top: 20vh;
-      left: 0;
-    }
+.video iframe {
+  width: 70%; /* Utiliser la pleine largeur du conteneur parent */
+  height: 30vw; /* 9/21 aspect ratio, 100vw * 9/21 = 56.25vw */
+}
  @media screen and (min-width: 800px){
   .monBouton{
     font-size: 30px;
