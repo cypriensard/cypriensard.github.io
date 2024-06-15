@@ -34,7 +34,7 @@ body {
 }
 #photos{
   height: auto;
-  width: 10vw;
+  width: 18vw;
   object-fit: cover;
   position: absolute;
   top: 50vh;
@@ -67,7 +67,7 @@ body {
   color: white;
   text-align: center;
   margin: auto;
-  top: 70vh;
+  top: 75vh;
   width: 80vw;
   margin-left: 50%;
   transform: translate(-50%);
@@ -169,27 +169,30 @@ transform: scale(1.1);
     font-size: 30px;
   }
 }
+@media screen and (min-width: 1000px){
+  #photos{
+    width: 10vw;
+  }
+}
 @media screen and (max-width: 1000px){
   #title{
     font-size: 10vw;
     margin-top: 15vh;
   }
-  #photos{
-    width: 15vw;
-    top: 55vh;
-  }
   #name{
     top: 75vh;
+    font-size: 5vw;
   }
 }
 @media screen and (max-width: 550px){
   #title{
     font-size: 12vw;
-  #photos{
-    width: 20vw;
-  }
 }
+
 @media screen and (max-width: 550px){
+  #photos{
+    width: 30vw;
+  }
   #insta-icon {
   width: 4vw;
   top: 87vh;
