@@ -151,7 +151,7 @@ transform: scale(1.1);
 
 @media screen and (min-width: 1500px){
   .gallery{
-  grid-template-columns: repeat(auto-fit,minmax(300px,2fr)) ;
+  grid-template-columns: repeat(auto-fit,minmax(400px,2fr)) ;
   }
 } 
 @media screen and (min-width: 950px){
