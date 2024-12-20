@@ -201,9 +201,9 @@ transform: scale(1.1);
     font-size: 6vw;
   }
 }
-  @media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px){
   #photos{
-    width: 14vw;
+    width: 20vw;
   }
 }
-@med
+
