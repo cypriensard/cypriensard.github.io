@@ -201,9 +201,4 @@ transform: scale(1.1);
     font-size: 6vw;
   }
 }
-@media screen and (max-width: 1400px){
-  #photos{
-    width: 50vw;
-  }
-}
 
