@@ -203,7 +203,7 @@ transform: scale(1.1);
 }
 @media screen and (min-width: 1400px){
   #photos{
-    width: 20vw;
+    width: 50vw;
   }
 }
 
