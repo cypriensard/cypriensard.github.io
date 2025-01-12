@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 }
@@ -54,16 +55,16 @@ body {
   background-color: white;
   padding: 10vh;
   padding-top: 15vh;
-
 }
+
 .video{
   display:grid;
   gap: 5vw;
   z-index: 2;
 }
 .video img {
-  width: 70vw;
-  height: 30vw;
+  width: 50vw;
+  height: 37,5vw;
   object-fit: cover;
   border-radius: 10px;
 }
