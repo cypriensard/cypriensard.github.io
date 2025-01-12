@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 }
@@ -164,6 +165,10 @@ transform: scale(1.1);
   grid-template-columns: repeat(auto-fit,minmax(120px,2fr)) ;
   }
 } 
+@media screen and (min-width: 1167px){
+  .gallery{
+  grid-template-columns: repeat(auto-fit,minmax(300px,2fr)) ;
+  }
 @media screen and (min-width: 800px){
   .monBouton{
     font-size: 30px;
