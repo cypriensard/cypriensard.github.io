@@ -167,6 +167,10 @@ transform: scale(1.1);
 } 
 @media screen and (min-width: 1167px){
   .gallery{
+  grid-template-columns: repeat(auto-fit,minmax(250px,2fr)) ;
+  }
+@media screen and (min-width: 1780px){
+  .gallery{
   grid-template-columns: repeat(auto-fit,minmax(300px,2fr)) ;
   }
 @media screen and (min-width: 800px){
