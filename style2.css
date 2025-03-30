@@ -63,10 +63,10 @@ body {
   z-index: 2;
 }
 .video img {
-  width: 80vw;
-  height: 43.2vw;
+  width: 100vw;
+  height: 54vw;
   object-fit: cover;
-  border-radius: 10px;
+
 }
 
  @media screen and (min-width: 800px){
