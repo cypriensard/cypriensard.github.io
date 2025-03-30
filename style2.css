@@ -59,7 +59,7 @@ body {
 
 .video{
   display:grid;
-  gap: 5vw;
+  gap: 0vw;
   z-index: 2;
 }
 .video img {
