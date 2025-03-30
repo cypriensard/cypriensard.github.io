@@ -59,14 +59,14 @@ body {
 
 .video{
   display:grid;
-  gap: 0vw;
+  gap: 4vw;
   z-index: 2;
 }
 .video img {
   width: 60vw;
   height: 25.5vw;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 15px;
 
 }
 
