@@ -63,8 +63,8 @@ body {
   z-index: 2;
 }
 .video img {
-  width: 50vw;
-  height: 37,5vw;
+  width: 80vw;
+  height: 43.2vw;
   object-fit: cover;
   border-radius: 10px;
 }
